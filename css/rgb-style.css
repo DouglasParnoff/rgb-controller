@@ -1,0 +1,57 @@
+.center {
+   margin: auto;
+}
+
+#rgbContainer{
+   width: 50%;
+   height: 80%;
+   border: 3px solid black;
+   padding: 10px;
+}
+
+.rgbControlTable {
+   border: 1px solid black;
+   margin: auto;    
+   width: 80%;
+}
+
+.rangeLabel, 
+   .rangeColumn, 
+   .rangeShowedValue{
+   border: 1px solid black;   
+}
+
+.rangeColumn, 
+   .rangeShowedValue{
+   text-align: center; /* center checkbox horizontally */
+   vertical-align: middle; /* center checkbox vertically */
+}
+
+.rangeLabel{
+   min-width: 100px;
+   width: 15%;   
+}
+
+.rangeInput{
+   min-width: 25px;
+   width: 30px;   
+}
+
+.rangeShowedValue{
+   min-width: 40px;
+   width: 10%;   
+}
+
+#coloredSquare {
+   margin:auto;
+   padding: 10%;
+   width: 15%;
+   height: 15%;
+   background-color: rgb(155,100,50);
+}
+
+#coloredSquare:after {
+   content: "";
+   display: block;
+   padding-bottom: 100%;
+}
